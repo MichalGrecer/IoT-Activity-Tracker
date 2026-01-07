@@ -1,27 +1,24 @@
-# --- Podstawowe pliki systemowe ---
+
 .DS_Store
 *.log
 Thumbs.db
 
-# --- RejestratorAplikacja (React Native / Expo) ---
-# [cite_start]Ignoruje biblioteki i pliki tymczasowe aplikacji [cite: 324-329]
+
 **/node_modules/
 **/.expo/
 **/dist/
 **/web-build/
-**/ios/build/
+**/ios
 **/android/build/
 **/.metro-health-check*
 
-# --- RejestratorFirmware (ESP32 / PlatformIO) ---
-# [cite_start]Ignoruje pliki kompilacji mikrokontrolera [cite: 119-125]
+
 **/.pio/
 **/.vscode/
 **/.gcc
 **/.pyc
 
-# --- Bezpieczeństwo i Pliki Lokalne ---
-# Nigdy nie wysyłamy kluczy i lokalnych konfiguracji
+
 **/*.jks
 **/*.p8
 **/*.p12
