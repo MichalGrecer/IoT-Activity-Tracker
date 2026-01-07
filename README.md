@@ -10,9 +10,9 @@ A comprehensive physical activity monitoring system based on the **ESP32** micro
 
 ## 📸 Overview
 
-| Live Tracking (BLE) | SVM Analytics & Status | Measurement History |
+| Home Page | History Analytics | Hardware Schematic |
 | :---: | :---: | :---: |
-| <img src="docs/screenshots/activity-tracker.png" width="250"> | <img src="docs/screenshots/activity-tracker2.png" width="250"> | <img src="docs/screenshots/activity-tracker3.png" width="250"> |
+| <img src="docs/screenshots/activity-tracker.PNG" width="250"> | <img src="docs/screenshots/activity-tracker2.PNG" width="250"> | <img src="docs/screenshots/activity-tracker3.png" width="250"> |
 
 ## 🛠 Project Structure
 - `/RejestratorFirmware`: C++ Firmware for ESP32 (PlatformIO / Arduino Framework).
